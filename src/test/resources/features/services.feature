@@ -3,7 +3,6 @@ Feature: CRM services feature.
   #..... --> potential jira ticket number
   @wipmustafa
   Scenario Outline: Hr, Helpesk and Marketing user can display 'My Courses'
-    Given "<usertype>" user is on home page
     When User clicks on the services tab.
     And  User clicks on the training tab.
     And  User clicks on the my courses tab to see his/her courses
